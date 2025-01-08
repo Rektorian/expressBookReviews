@@ -1,0 +1,15 @@
+POST: http://localhost:5000/register
+{"username":"user1", "password":"password1"}
+
+POST: http://localhost:5000/customer/login
+{"username":"user1", "password":"password1"}
+
+PUT: http://localhost:5000/customer/auth/review/1
+PARAMS: review -- very good
+
+DELETE http://localhost:5000/customer/auth/review/1
+
+
+
+
+

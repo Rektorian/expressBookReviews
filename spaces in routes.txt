@@ -1,0 +1,2 @@
+When using Postman, you can manually encode the spaces in the URL by replacing them with %20. For example, if you want to pass a title like "Super House", you should enter it in the URL as "Super%20House":
+http://localhost:5000/title/Super%20House
